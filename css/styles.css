@@ -70,6 +70,7 @@ p{
   padding: 2rem 0;
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
 }
 
 /* Features */
@@ -77,6 +78,8 @@ p{
   background-color: #fff;
   padding: 7% 15%;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 /* Awesome Fonts */
