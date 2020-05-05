@@ -163,3 +163,18 @@ p{
   line-height: 1.5;
   font-family: 'Montserrat-black';
 }
+
+@media (max-width: 1090px){
+
+  .text-light{
+    text-align: center;
+  }
+
+  #title .container-fluid{
+    padding-bottom: 0;
+  }
+  .image{
+    position: static;
+    transform: rotate(0);
+  }
+}
